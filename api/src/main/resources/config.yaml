@@ -1,5 +1,5 @@
 kumuluzee:
-  name: rso-support_tickets
+  name: support_tickets
   env:
     name: dev
   version: 1.0.0
