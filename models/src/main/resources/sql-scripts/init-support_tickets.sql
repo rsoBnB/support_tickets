@@ -1,0 +1,3 @@
+INSERT INTO tickets (id, title, description, submitted, user_id, solved) VALUES (1, 'Cannot change address', 'Cannot change address', TIMESTAMP '2017-03-01 11:23:38', 1, true);
+INSERT INTO tickets (id, title, description, submitted, user_id, solved) VALUES (2, 'Cannot add payment', 'Cannot add payment', TIMESTAMP '2017-04-12 01:12:38', 1, false);
+INSERT INTO tickets (id, title, description, submitted, user_id, solved) VALUES (3, 'Cannot change email address', 'Cannot change email address', TIMESTAMP '2017-06-17 12:00:08', 3, true);

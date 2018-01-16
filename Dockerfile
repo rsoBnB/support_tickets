@@ -6,6 +6,6 @@ WORKDIR /app
 
 ADD ./api/target /app
 
-EXPOSE 8083
+EXPOSE 8087
 
-CMD ["java", "-jar", "reviews-api-1.0.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "support_tickets-api-1.0.0-SNAPSHOT.jar"]
