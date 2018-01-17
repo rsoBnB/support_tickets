@@ -7,11 +7,11 @@ spec:
   template:
     metadata:
       labels:
-        app: order
+        app: support_tickets
     spec:
       containers:
       - image: ggrex/rsobnb-support_tickets:0.1
-        name: orders
+        name: support_tickets
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
             value: bluemix
@@ -20,7 +20,7 @@ spec:
           - name: KUMULUZEE_CONFIG_ETCD_HOSTS
             value: http://etcd:2379
           - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
-            value: jdbc:postgresql://postgres-tickets:5432/support_ticket
+            value: jdbc:postgresql://postgres-support_tickets:5432/support_ticket
           - name: KUMULUZEE_SERVER_BASEURL
             value: http://169.51.13.134:30477
         livenessProbe:
